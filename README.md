@@ -17,8 +17,8 @@ Before running this code the following extensions should be installed:
 Also SAM2 should be installed into SAM2 folder
 ### Usage
 JPEGImages folder contains pictures that should be segmented, and SegmentationClass contains correct masks, used for evaluation.
-splitDataset.py is used for splitting data into training and val folders
-LoRa_Sam2.py fine tunes the model
-sam2_improved.py evalueates the whole model 
-edge_segmentation.py returns scores when using edge segmentation
-watershed.py return scores when using watershed segmentation
+- splitDataset.py is used for splitting data into training and val folders
+- LoRa_Sam2.py fine tunes the model
+- sam2_improved.py evalueates the whole model 
+- edge_segmentation.py returns scores when using edge segmentation
+- watershed.py return scores when using watershed segmentation
