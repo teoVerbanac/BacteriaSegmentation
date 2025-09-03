@@ -15,7 +15,7 @@ Before running this code the following extensions should be installed:
 - if using GPU, pytorch needs to be configured to the right version of CUDA
 
 Also SAM2 should be installed into SAM2 folder
-###Usage
+### Usage
 JPEGImages folder contains pictures that should be segmented, and SegmentationClass contains the masks that are hand drawn.
 splitDataset.py is used for splitting data into training and val folders
 LoRa_Sam2.py fine tunes the model
