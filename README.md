@@ -16,7 +16,7 @@ Before running this code the following extensions should be installed:
 
 Also SAM2 should be installed into SAM2 folder
 ### Usage
-JPEGImages folder contains pictures that should be segmented, and SegmentationClass contains the masks that are hand drawn.
+JPEGImages folder contains pictures that should be segmented, and SegmentationClass contains correct masks, used for evaluation.
 splitDataset.py is used for splitting data into training and val folders
 LoRa_Sam2.py fine tunes the model
 sam2_improved.py evalueates the whole model 
