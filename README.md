@@ -1,5 +1,5 @@
 # BacteriaSegmentation
-This code is used for testing the differencesin results between traditional picture segmentation methods and SAM2. The metrics used for measurment are IoU and dice score.
+This code is used for testing the differences in results between traditional picture segmentation methods and SAM2. The metrics used for measurment are IoU and dice score.
 
 Before running this code the following extensions should be installed:
 
@@ -14,7 +14,7 @@ Before running this code the following extensions should be installed:
 - peft
 - if using GPU, pytorch needs to be configured to the right version of CUDA
 
-Also SAM2 should be installed into SAM2 folder
+Also SAM2 should be installed into SAM2 folder.
 ### Usage
 JPEGImages folder contains pictures that should be segmented, and SegmentationClass contains correct masks, used for evaluation.
 - splitDataset.py is used for splitting data into training and val folders
